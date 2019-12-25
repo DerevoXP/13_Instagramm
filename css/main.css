@@ -1,0 +1,72 @@
+* {
+  background-color: gainsboro;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#root .newDiv {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  margin: 10px 10px 100px 10px;
+  background-size: cover;
+  border-radius: 2%;
+  -webkit-box-shadow: 10px 10px 15px 0 grey;
+          box-shadow: 10px 10px 15px 0 grey;
+}
+
+#root .descriptImage {
+  width: 286px;
+  height: 50px;
+  margin: 320px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;
+  color: grey;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+#root .descriptImage .newTitle {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#root .descriptImage .far fa-thumbs-up {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#root .descriptImage .newLikes {
+  display: inline;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#inputArea {
+  margin: 10px;
+  width: 286px;
+  height: 30px;
+  background-color: white;
+  color: grey;
+  border-radius: 4px;
+  padding-left: 10px;
+  -webkit-box-shadow: 5px 5px 5px 0 grey;
+          box-shadow: 5px 5px 5px 0 grey;
+}
+
+#instaButt {
+  width: 70px;
+  height: 35px;
+  margin-left: 8px;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 5px 0 grey;
+          box-shadow: 5px 5px 5px 0 grey;
+  border: 1px solid grey;
+}
+/*# sourceMappingURL=main.css.map */
